@@ -23,9 +23,17 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnToast.setOnClickListener {
-//          토스트 버튼이 눌리면, Toast를 만들고(makeText) 보여주기(show)
-            Toast.makeText(this, "토스트 버튼이 눌렸습니다.", Toast.LENGTH_SHORT).show()
-            
+
+            Toast.makeText(this, "토스트 자동완성", Toast.LENGTH_SHORT).show()
+
+        }
+
+        btnVariable.setOnClickListener {
+
+//            변수에 대한 문법 연습용 코드
+
+
+
         }
 
         
