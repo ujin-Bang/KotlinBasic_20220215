@@ -34,21 +34,18 @@ class MainActivity : AppCompatActivity() {
 
 //            본인의 이름을 변수에 담아보자. => 담은 내용을 토스트로 띄우자.
 
-            var myName : String
-            myName = "조경진"
-            myName = "김강사"
+            var myName = "조경진"
 
-            val friendName: String
-            friendName = "이선생"
+            val friendName ="이선생"
+//            val friendName: String
+//            friendName = "이선생"
 //            friendName = "김강사"  val에는 새 값으로 교체 불가.
 
             Toast.makeText(this, friendName, Toast.LENGTH_SHORT).show()
 
-            var myBirthYear: Int
-            myBirthYear = 1988
+            val myBirthYear = 1988
 
-            var myHeight : Double
-            myHeight = 180.7
+            val myHeight = 180.7
 
 
         }
