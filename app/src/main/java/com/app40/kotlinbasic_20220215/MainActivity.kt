@@ -50,7 +50,23 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        
+        btnCondition.setOnClickListener {
+
+//            조건문 연습
+
+            val userAge = 17
+
+//            사용자의 나이가 20살 이상인가요? 맞으면 성인입니다. 맞으면 토스트로 띄우기
+            if (userAge >= 20) {
+
+//                사용자 나이가 20살 이상일 때만 실행할 내용
+                Toast.makeText(this, "성인입니다.", Toast.LENGTH_SHORT).show()
+            }
+            else{
+//                위의 질문이 틀렸을 때만 실행할 내용
+                Toast.makeText(this, "미성년자입니다.", Toast.LENGTH_SHORT).show()
+            }
+        }
 
 
 
